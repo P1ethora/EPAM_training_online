@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Persons>
+  <Person firstName="Oleg">
+    <lastName>Carp</lastName>
+    <city>Homel</city>
+    <street>Amur 14</street>
+    <postalCode>246043</postalCode>
+    <birthday>1995-01-01</birthday>
+  </Person>
+  <Person firstName="Micha">
+    <lastName>Pupkin</lastName>
+    <city>Homel</city>
+    <street>Amur 11</street>
+    <postalCode>246043</postalCode>
+    <birthday>1994-10-10</birthday>
+  </Person>
+  <Person firstName="Nikolai">
+    <lastName>Peshehodov</lastName>
+    <city>Homel</city>
+    <street>Bakunina 14</street>
+    <postalCode>246042</postalCode>
+    <birthday>1995-02-25</birthday>
+  </Person>
+  <Person firstName="Viktor">
+    <lastName>Omegov</lastName>
+    <city>Homel</city>
+    <street>Zaiceva 10</street>
+    <postalCode>246075</postalCode>
+    <birthday>1996-09-30</birthday>
+  </Person>
+  <Person firstName="Lenin">
+    <lastName>Lenol</lastName>
+    <city>Grodno</city>
+    <street>Balil</street>
+    <postalCode>44567</postalCode>
+    <birthday>1995-11-11</birthday>
+  </Person>
+</Persons>
+

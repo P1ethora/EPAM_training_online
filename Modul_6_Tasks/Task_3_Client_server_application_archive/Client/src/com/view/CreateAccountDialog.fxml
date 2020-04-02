@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane cache="true" cacheHint="DEFAULT" depthTest="INHERIT" prefHeight="280.0" prefWidth="380.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="com.view.CreateAccountDialogController">
+  <children>
+    <VBox id="VBox" alignment="CENTER" spacing="10.0" AnchorPane.bottomAnchor="119.0" AnchorPane.leftAnchor="53.0" AnchorPane.topAnchor="119.0">
+      <children>
+        <Label text="Login" />
+        <Label text="Password" />
+      </children>
+      <padding>
+        <Insets />
+      </padding>
+    </VBox>
+    <HBox spacing="5.0" AnchorPane.bottomAnchor="10.0" AnchorPane.rightAnchor="10.0">
+      <children>
+        <Button mnemonicParsing="false" onAction="#handleOk" prefWidth="90.0" text="OK" />
+        <Button mnemonicParsing="false" onAction="#handleCancel" prefWidth="90.0" text="Cancel" />
+      </children>
+    </HBox>
+    <Label fx:id="messenge" prefWidth="29.9998779296875" text="" AnchorPane.leftAnchor="118.0" AnchorPane.rightAnchor="232.0" AnchorPane.topAnchor="82.0" />
+    <VBox id="VBox" alignment="CENTER" layoutX="118.0" prefWidth="157.0" spacing="5.0" AnchorPane.bottomAnchor="118.0" AnchorPane.topAnchor="113.0">
+      <children>
+        <TextField fx:id="login" prefWidth="200.0" text="" />
+        <TextField fx:id="password" prefWidth="200.0" text="" />
+      </children>
+    </VBox>
+    <Label fx:id="checkLogin" prefHeight="15.999900000002526" prefWidth="235.0" text="" AnchorPane.leftAnchor="72.5" AnchorPane.rightAnchor="72.5" AnchorPane.topAnchor="82.0" />
+  </children>
+</AnchorPane>

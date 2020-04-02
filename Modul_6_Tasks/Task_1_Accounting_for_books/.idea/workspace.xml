@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e40ff4e5-f97e-4173-973b-598b29a03c04" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Libraries">
+      <favorite_root url="de.svenkubiak:jBCrypt:0.4.1" type="namedLibrary" klass="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode">
+        <favorite_root url="jar://$MAVEN_REPOSITORY$/de/svenkubiak/jBCrypt/0.4.1/jBCrypt-0.4.1.jar!/" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="jar://$MAVEN_REPOSITORY$/de/svenkubiak/jBCrypt/0.4.1/jBCrypt-0.4.1.jar!/org" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="jar://$MAVEN_REPOSITORY$/de/svenkubiak/jBCrypt/0.4.1/jBCrypt-0.4.1.jar!/org/mindrot" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="jar://$MAVEN_REPOSITORY$/de/svenkubiak/jBCrypt/0.4.1/jBCrypt-0.4.1.jar!/org/mindrot/jbcrypt" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="jar://$MAVEN_REPOSITORY$/de/svenkubiak/jBCrypt/0.4.1/jBCrypt-0.4.1.jar!/org/mindrot/jbcrypt/BCrypt.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+            </favorite_root>
+          </favorite_root>
+          <favorite_root url="jar://$MAVEN_REPOSITORY$/de/svenkubiak/jBCrypt/0.4.1/jBCrypt-0.4.1.jar!/META-INF" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="jar://$MAVEN_REPOSITORY$/de/svenkubiak/jBCrypt/0.4.1/jBCrypt-0.4.1.jar!/META-INF/maven" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="jar://$MAVEN_REPOSITORY$/de/svenkubiak/jBCrypt/0.4.1/jBCrypt-0.4.1.jar!/META-INF/maven/de.svenkubiak" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="jar://$MAVEN_REPOSITORY$/de/svenkubiak/jBCrypt/0.4.1/jBCrypt-0.4.1.jar!/META-INF/maven/de.svenkubiak/jBCrypt" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="jar://$MAVEN_REPOSITORY$/de/svenkubiak/jBCrypt/0.4.1/jBCrypt-0.4.1.jar!/META-INF/maven/de.svenkubiak/jBCrypt/pom.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://$MAVEN_REPOSITORY$/de/svenkubiak/jBCrypt/0.4.1/jBCrypt-0.4.1.jar!/META-INF/maven/de.svenkubiak/jBCrypt/pom.properties" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+              </favorite_root>
+            </favorite_root>
+            <favorite_root url="jar://$MAVEN_REPOSITORY$/de/svenkubiak/jBCrypt/0.4.1/jBCrypt-0.4.1.jar!/META-INF/MANIFEST.MF" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+        </favorite_root>
+      </favorite_root>
+    </favorites_list>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaFXApplication" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Z4UWyn6XYYOJGUoHvQQ8HnAp4X" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584052472260" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\ProjectJAVA\ihair\IdeaProjects\EPAMcourse\Modul_6_Tasks\Accounting_for_books\src\pl\content\forCatalog" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\ProjectJAVA\ihair\IdeaProjects\EPAMcourse\Modul_6_Tasks\Accounting_for_books\src\pl\content\forCatalog" />
+      <recent name="F:\ProjectJAVA\ihair\IdeaProjects\EPAMcourse\Modul_6_Tasks\Accounting_for_books\src\pl\content\forAccount" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="CryptoUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.crypto.CryptoUtils" />
+      <module name="Accounting_for_books" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.crypto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.launch.Main" />
+      <module name="Accounting_for_books" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.client.view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.client.logicClient.workingWithMail.Main" />
+      <module name="Accounting_for_books" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.client.logicClient.workingWithMail.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sending" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.client.logicClient.workingWithMail.Sending" />
+      <module name="Accounting_for_books" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.client.logicClient.workingWithMail.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Sending" />
+        <item itemvalue="Application.CryptoUtils" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e40ff4e5-f97e-4173-973b-598b29a03c04" name="Default Changelist" comment="" />
+      <created>1583417559135</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583417559135</updated>
+      <workItem from="1583417593764" duration="598000" />
+      <workItem from="1583671713883" duration="11242000" />
+      <workItem from="1583698637526" duration="2459000" />
+      <workItem from="1583944777047" duration="1498000" />
+      <workItem from="1583946333526" duration="4499000" />
+      <workItem from="1584010020704" duration="2682000" />
+      <workItem from="1584034289454" duration="15958000" />
+      <workItem from="1584097907713" duration="87000" />
+      <workItem from="1584099129298" duration="480000" />
+      <workItem from="1584099670654" duration="303000" />
+      <workItem from="1584100010227" duration="3913000" />
+      <workItem from="1584109548768" duration="4251000" />
+      <workItem from="1584313713544" duration="5549000" />
+      <workItem from="1584366811390" duration="18897000" />
+      <workItem from="1584478642368" duration="3562000" />
+      <workItem from="1584634370052" duration="11404000" />
+      <workItem from="1584715996522" duration="36313000" />
+      <workItem from="1584883925767" duration="14438000" />
+      <workItem from="1585063629073" duration="7222000" />
+      <workItem from="1585076030280" duration="6382000" />
+      <workItem from="1585578808763" duration="1456000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="378" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1584097909326">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="378" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1584097909326" />
+  </component>
+</project>

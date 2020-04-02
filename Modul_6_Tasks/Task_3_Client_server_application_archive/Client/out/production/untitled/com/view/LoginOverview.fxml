@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="com.view.LoginOverviewController">
+  <children>
+    <Group id="Group" layoutX="126.0" layoutY="117.0">
+      <children>
+        <VBox id="VBox" alignment="CENTER" layoutX="75.0" layoutY="0.0" maxHeight="147.0" maxWidth="200.0" spacing="15.0">
+          <children>
+            <Label fx:id="signInFalse" alignment="CENTER" prefHeight="23.000099999997474" prefWidth="187.0" text="" textFill="RED" />
+            <TextField id="pole" fx:id="login" prefWidth="200.0" text="" />
+            <PasswordField fx:id="password" prefWidth="200.0" text="" />
+          </children>
+        </VBox>
+        <VBox id="VBox" alignment="CENTER" layoutX="0.0" layoutY="46.0" spacing="20.0">
+          <children>
+            <Label text="Login" />
+            <Label text="Password" />
+          </children>
+        </VBox>
+      </children>
+    </Group>
+    <HBox id="HBox" alignment="CENTER" layoutX="188.0" layoutY="235.0" spacing="5.0">
+      <children>
+        <Button id="Button" fx:id="buttonCreateAccount" mnemonicParsing="false" onAction="#OnClickCreateAccount" prefHeight="35.0" prefWidth="110.0" text="Create Account" />
+        <Button id="ButtonSignIn" fx:id="buttonSignIn" mnemonicParsing="false" onAction="#OnClick" prefHeight="35.0" prefWidth="110.0" text="Sign In" />
+      </children>
+    </HBox>
+  </children>
+</AnchorPane>

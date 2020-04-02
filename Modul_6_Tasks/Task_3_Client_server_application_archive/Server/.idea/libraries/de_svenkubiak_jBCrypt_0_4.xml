@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="de.svenkubiak:jBCrypt:0.4" type="repository">
+    <properties maven-id="de.svenkubiak:jBCrypt:0.4" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/de/svenkubiak/jBCrypt/0.4/jBCrypt-0.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

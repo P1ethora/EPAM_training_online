@@ -1,0 +1,43 @@
+package pl.launch;
+
+import pl.content.Dungeon;
+import pl.logic.FillDungeon;
+
+import java.util.Scanner;
+
+/**
+ * Создать программу, позволяющую обрабатывать сведения о 100 сокровищах в пещере дракона.
+ * Реализовать возомжность просмотра сокровищ, выбора самого дорогого по стоимости сокровища
+ * и выбора сокровищ на заданную сумму.
+ */
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        Dungeon dungeon = new Dungeon();
+        FillDungeon fillDungeon = new FillDungeon(dungeon);
+
+        while (true) {
+            System.out.print("1-Просмотр сокровищ/2-Самое дорогое сокровище/3-Выбор сокровища/4-закончить\n");
+            System.out.print("Введите команду: ");
+            boolean stop = false;
+            switch (new Scanner(System.in).nextInt()) {
+                case 1:
+                    dungeon.print();
+                    break;
+                case 2:
+                    dungeon.maxPrice(dungeon);
+                    break;
+                case 3:
+                    dungeon.specified(dungeon);
+                    break;
+                case 4:
+                    stop = true;
+            }
+            if (stop) {
+                break;
+            }
+        }
+    }
+}
