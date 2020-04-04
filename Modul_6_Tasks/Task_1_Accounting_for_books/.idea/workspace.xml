@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e40ff4e5-f97e-4173-973b-598b29a03c04" name="Default Changelist" comment="" />
+    <list default="true" id="e40ff4e5-f97e-4173-973b-598b29a03c04" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Modul_5_Basics_of_OOP/Task_03/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Modul_5_Basics_of_OOP/Task_04/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/ihair.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task_2_Notepad/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task_4_Port213/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Modul_5_Basics_of_OOP/Task_01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Modul_5_Basics_of_OOP/Task_01/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Modul_5_Basics_of_OOP/Task_01/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Modul_5_Basics_of_OOP/Task_01/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Modul_5_Basics_of_OOP/Task_03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Modul_5_Basics_of_OOP/Task_03/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Modul_5_Basics_of_OOP/Task_04/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Modul_5_Basics_of_OOP/Task_04/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Modul_5_Basics_of_OOP/Task_04/src/pl/launch/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Modul_5_Basics_of_OOP/Task_04/src/pl/launch/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Modul_5_Basics_of_OOP/Task_05/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Modul_5_Basics_of_OOP/Task_05/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Modul_5_Basics_of_OOP/Task_05/src/pl/launch/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Modul_5_Basics_of_OOP/Task_05/src/pl/launch/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/client/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/launch/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/launch/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task_2_Notepad/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Task_2_Notepad/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task_2_Notepad/src/pl/client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task_2_Notepad/src/pl/client/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task_3_Client_server_application_archive/Client/src/com/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task_3_Client_server_application_archive/Client/src/com/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task_4_Port213/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Task_4_Port213/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task_4_Port213/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task_4_Port213/src/Main.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +79,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="ProjectId" id="1Z4UWyn6XYYOJGUoHvQQ8HnAp4X" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -68,6 +94,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584052472260" />
@@ -192,11 +219,23 @@
       <workItem from="1585063629073" duration="7222000" />
       <workItem from="1585076030280" duration="6382000" />
       <workItem from="1585578808763" duration="1456000" />
+      <workItem from="1586031174880" duration="321000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="378" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1584097909326">

@@ -1,7 +1,6 @@
 package pl.client;
 
 import org.mindrot.jbcrypt.BCrypt;
-import pl.client.logicClient.ChangeLineAccountFile;
 import pl.client.view.AdminView;
 import pl.client.view.SuperAdmin;
 import pl.client.view.UserView;

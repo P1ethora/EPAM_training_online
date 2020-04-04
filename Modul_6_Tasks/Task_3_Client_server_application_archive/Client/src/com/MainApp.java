@@ -6,6 +6,13 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
+/**
+ * Создайте киент-серверное приложение "Архив" .
+ * В архиве хранятся дела. Архив находится на сервере.
+ * Клиент, в зависимости от прав, может запросить дело на просмотр, внести в
+ * него изменения, или создать новое дело.
+ */
+
 public class MainApp extends Application {
 
     public static Stage primaryStage;

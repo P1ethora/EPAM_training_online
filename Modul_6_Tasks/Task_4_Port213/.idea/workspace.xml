@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e177960c-a7c9-4e54-88bd-f27f2eda6c59" name="Default Changelist" comment="" />
+    <list default="true" id="e177960c-a7c9-4e54-88bd-f27f2eda6c59" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Modul_5_Basics_of_OOP/Task_03/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Modul_5_Basics_of_OOP/Task_04/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Modul_5_Basics_of_OOP/Task_01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Modul_5_Basics_of_OOP/Task_01/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Modul_5_Basics_of_OOP/Task_01/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Modul_5_Basics_of_OOP/Task_01/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Modul_5_Basics_of_OOP/Task_03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Modul_5_Basics_of_OOP/Task_03/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Modul_5_Basics_of_OOP/Task_04/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Modul_5_Basics_of_OOP/Task_04/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Modul_5_Basics_of_OOP/Task_04/src/pl/launch/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Modul_5_Basics_of_OOP/Task_04/src/pl/launch/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Modul_5_Basics_of_OOP/Task_05/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Modul_5_Basics_of_OOP/Task_05/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Modul_5_Basics_of_OOP/Task_05/src/pl/launch/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Modul_5_Basics_of_OOP/Task_05/src/pl/launch/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,14 +42,13 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1386" />
-    <option name="height" value="788" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectId" id="1ZztdpF5036bhqLVEhAhTKYZEzQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574936505034" />
@@ -109,11 +121,23 @@
       <workItem from="1575228306937" duration="583000" />
       <workItem from="1575412163169" duration="30000" />
       <workItem from="1585853844109" duration="60000" />
+      <workItem from="1586019179550" duration="1366000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b53c4eff-0333-415e-8843-8ea8854499dd" name="Default Changelist" comment="" />
+    <list default="true" id="b53c4eff-0333-415e-8843-8ea8854499dd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Task_03/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Task_04/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Modul_6_Tasks/Task_4_Port213/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task_03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Task_03/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task_04/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Task_04/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task_04/src/pl/launch/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task_04/src/pl/launch/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task_05/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Task_05/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task_05/src/pl/launch/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task_05/src/pl/launch/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Modul_6_Tasks/Task_3_Client_server_application_archive/Client/src/com/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Modul_6_Tasks/Task_3_Client_server_application_archive/Client/src/com/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Modul_6_Tasks/Task_4_Port213/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Modul_6_Tasks/Task_4_Port213/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Modul_6_Tasks/Task_4_Port213/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Modul_6_Tasks/Task_4_Port213/src/Main.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,12 +43,17 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="ProjectId" id="1ZzrbhSwY9eRPLfpyajuGZmMwea" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581944775571" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Modul_6_Tasks/Task_4_Port213" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Modul_6_Tasks/Task_3_Client_server_application_archive/Client" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -81,12 +100,26 @@
       <option name="presentableId" value="Default" />
       <updated>1581937389639</updated>
       <workItem from="1581937393530" duration="6100000" />
-      <workItem from="1585852838385" duration="878000" />
+      <workItem from="1585852838385" duration="1449000" />
+      <workItem from="1586017906713" duration="2747000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
