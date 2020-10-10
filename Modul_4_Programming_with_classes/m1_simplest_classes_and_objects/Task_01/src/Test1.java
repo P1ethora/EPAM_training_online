@@ -2,10 +2,14 @@ class Test1 {
 
     private int a;
     private int b;
+    private int sum;
 
-    void print() {
-        System.out.println("First " + a + " " + "Second " + b);
+    Test1(int a, int b){
+        this.a = a;
+        this.b = b;
     }
+
+    Test1(){}
 
     void setA(int a) {
         this.a = a;
@@ -16,10 +20,17 @@ class Test1 {
     }
 
     void sum() {
-        System.out.println("Sum = " + (a + b));
+        sum = a + b;
+        System.out.println("Sum = " + sum);
     }
 
     void max() {
-        System.out.println("Max = " + (a > b ? a : b));
+        System.out.println("Max = " + (Math.max(a, b)));
+    }
+
+    @Override
+    public String toString() {
+        return
+                "Object {a = " + a + ", b= " + b + "}";
     }
 }
