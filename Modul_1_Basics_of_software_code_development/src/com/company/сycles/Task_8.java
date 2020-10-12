@@ -10,14 +10,15 @@ public class Task_8 {
 
         int a = 14567;
         int b = 14959343;
+        int c = 1;
 
         share(a);
         share(b);
+        share(c);
 
     }
 
     private static void share(int numb) {
-
         System.out.print(numb + " = ");
 
         while (numb != 0) {

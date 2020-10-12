@@ -1,5 +1,7 @@
 package com.company.liner;
 
+import java.util.Scanner;
+
 /**
  * Найдите значение функции: z = ( (a – 3 ) * b / 2) + c
  */
@@ -8,11 +10,12 @@ public class Task_1 {
 
     public static void main(String[] args) {
 
-        int z, a = 6, b = 6, c = 6;
+        System.out.print(valueZ(new Scanner(System.in).nextInt(), new Scanner(System.in).nextInt(), new Scanner(System.in).nextInt()));
 
-        z = ((a - 3) * b / 2) + c;
+    }
 
-        System.out.print(z);
+    private static int valueZ(int a, int b, int c) {
 
+        return ((a - 3) * b / 2) + c;
     }
 }

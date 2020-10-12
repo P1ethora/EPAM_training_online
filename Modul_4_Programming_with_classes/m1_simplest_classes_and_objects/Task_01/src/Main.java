@@ -11,7 +11,7 @@ public class Main {
         Test1 test1 = new Test1();
         test1.setA(10);
         test1.setB(9);
-        test1.print();
+        System.out.println(test1);
         test1.sum();
         test1.max();
     }

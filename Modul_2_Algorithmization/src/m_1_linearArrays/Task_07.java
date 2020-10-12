@@ -9,12 +9,12 @@ public class Task_07 {
 
     public static void main(String[] args) {
 
-        double[] list = {1.1, 2.2, 3, 4.4, 5.5, 6, 6.1};
+        double[] list = {1.1, 2.2, 3, 4.4, 5.5, 6, 10.1};
         double max = list[0] + list[list.length - 1];
         double maxFinal = 0;
         for (int i = 1; i < list.length / 2; i++) {
             double sum = list[i] + list[list.length - 1 - i];
-            maxFinal = max < sum ? sum : max;
+            maxFinal = Math.max(max, sum);
         }
         System.out.println(maxFinal);
     }

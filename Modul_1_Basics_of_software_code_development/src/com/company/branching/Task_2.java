@@ -13,10 +13,10 @@ public class Task_2 {
     }
 
     private static int min(int a, int b) {
-        return a < b ? a : b;
+        return Math.min(a, b);
     }
 
     private static int max(int a, int b) {
-        return a > b ? a : b;
+        return Math.max(a, b);
     }
 }

@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="298c8814-3b1b-482c-9c5a-3404f2d21bdb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Modul_5_Basics_of_OOP/Task_03/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Modul_5_Basics_of_OOP/Task_04/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Task_1_Accounting_for_books/.idea/dictionaries/ihair.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Task_1_Accounting_for_books/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Task_4_Port213/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Modul_5_Basics_of_OOP/Task_01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Modul_5_Basics_of_OOP/Task_01/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Modul_5_Basics_of_OOP/Task_01/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Modul_5_Basics_of_OOP/Task_01/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Modul_5_Basics_of_OOP/Task_03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Modul_5_Basics_of_OOP/Task_03/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Modul_5_Basics_of_OOP/Task_04/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Modul_5_Basics_of_OOP/Task_04/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Modul_5_Basics_of_OOP/Task_04/src/pl/launch/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Modul_5_Basics_of_OOP/Task_04/src/pl/launch/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Modul_5_Basics_of_OOP/Task_05/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Modul_5_Basics_of_OOP/Task_05/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Modul_5_Basics_of_OOP/Task_05/src/pl/launch/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Modul_5_Basics_of_OOP/Task_05/src/pl/launch/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task_1_Accounting_for_books/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Task_1_Accounting_for_books/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task_1_Accounting_for_books/src/pl/client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task_1_Accounting_for_books/src/pl/client/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task_1_Accounting_for_books/src/pl/launch/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task_1_Accounting_for_books/src/pl/launch/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/client/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task_3_Client_server_application_archive/Client/src/com/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task_3_Client_server_application_archive/Client/src/com/MainApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task_4_Port213/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Task_4_Port213/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task_4_Port213/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task_4_Port213/src/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -125,6 +105,7 @@
       <workItem from="1585479809229" duration="10877000" />
       <workItem from="1585578774331" duration="24000" />
       <workItem from="1586030848860" duration="647000" />
+      <workItem from="1586092116371" duration="1680000" />
     </task>
     <servers />
   </component>
@@ -136,7 +117,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

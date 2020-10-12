@@ -1,12 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="02b87683-e690-4bd7-9e30-fcff672b6b5d" name="Default Changelist" comment="" />
+    <list default="true" id="02b87683-e690-4bd7-9e30-fcff672b6b5d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Modul_1_Basics_of_software_code_development/out/production/Basics_of_software_code_development/META-INF/Basics_of_software_code_development.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Modul_1_Basics_of_software_code_development/out/production/Basics_of_software_code_development/META-INF/Basics_of_software_code_development.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Modul_1_Basics_of_software_code_development/out/production/Basics_of_software_code_development/com/company/liner/Task_4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Modul_1_Basics_of_software_code_development/out/production/Basics_of_software_code_development/com/company/liner/Task_4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Modul_1_Basics_of_software_code_development/out/production/Basics_of_software_code_development/com/company/сycles/Task_8.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Modul_1_Basics_of_software_code_development/out/production/Basics_of_software_code_development/com/company/сycles/Task_8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Modul_1_Basics_of_software_code_development/src/com/company/liner/Task_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Modul_1_Basics_of_software_code_development/src/com/company/liner/Task_4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Modul_1_Basics_of_software_code_development/src/com/company/сycles/Task_8.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Modul_1_Basics_of_software_code_development/src/com/company/сycles/Task_8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Modul_2_Algorithmization/out/production/Modul_2_Algorithmization/m_1_linearArrays/Task_07.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Modul_2_Algorithmization/out/production/Modul_2_Algorithmization/m_1_linearArrays/Task_07.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Modul_2_Algorithmization/out/production/Modul_2_Algorithmization/m_3_sortingArrays/Task_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Modul_2_Algorithmization/out/production/Modul_2_Algorithmization/m_3_sortingArrays/Task_2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Modul_2_Algorithmization/out/production/Modul_2_Algorithmization/m_3_sortingArrays/Task_3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Modul_2_Algorithmization/out/production/Modul_2_Algorithmization/m_3_sortingArrays/Task_3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Modul_2_Algorithmization/out/production/Modul_2_Algorithmization/m_3_sortingArrays/Task_4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Modul_2_Algorithmization/out/production/Modul_2_Algorithmization/m_3_sortingArrays/Task_4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Modul_2_Algorithmization/out/production/Modul_2_Algorithmization/m_3_sortingArrays/Task_5.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Modul_2_Algorithmization/out/production/Modul_2_Algorithmization/m_3_sortingArrays/Task_5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Modul_2_Algorithmization/out/production/Modul_2_Algorithmization/m_3_sortingArrays/Task_6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Modul_2_Algorithmization/out/production/Modul_2_Algorithmization/m_3_sortingArrays/Task_7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Modul_2_Algorithmization/out/production/Modul_2_Algorithmization/m_3_sortingArrays/Task_8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Modul_2_Algorithmization/src/m_1_linearArrays/Task_07.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Modul_2_Algorithmization/src/m_1_linearArrays/Task_07.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Modul_3_String_and_basics_of_text_processing/out/production/Modul_3_String_and_basics_of_text_processing/META-INF/Modul_3_String_and_basics_of_text_processing.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Modul_3_String_and_basics_of_text_processing/out/production/Modul_3_String_and_basics_of_text_processing/m_3/TTT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Modul_3_String_and_basics_of_text_processing/out/production/Modul_3_String_and_basics_of_text_processing/m_3/Task1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Modul_3_String_and_basics_of_text_processing/out/production/Modul_3_String_and_basics_of_text_processing/m_3/Task_1$Task1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Modul_3_String_and_basics_of_text_processing/out/production/Modul_3_String_and_basics_of_text_processing/m_3/Task_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Modul_3_String_and_basics_of_text_processing/out/production/Modul_3_String_and_basics_of_text_processing/m_3/Task_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Modul_3_String_and_basics_of_text_processing/out/production/Modul_3_String_and_basics_of_text_processing/m_3/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Task_01/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task_01/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Task_01/Test1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task_01/Test1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Modul_6_Tasks/Task_2_Notepad/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Modul_6_Tasks/Task_2_Notepad/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="77" />
@@ -15,14 +47,20 @@
     <option name="height" value="487" />
   </component>
   <component name="ProjectId" id="1ZzpvvPqZyIAFeE3HwogRC7pcEC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580149387211" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Task_02" />
+    <property name="last_opened_file_path" value="E:/DofusBotJava/B4D-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+    <property name="settings.editor.splitter.proportion" value="0.26357356" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -67,10 +105,39 @@
       <updated>1580148058146</updated>
       <workItem from="1580148062157" duration="1332000" />
       <workItem from="1585852012787" duration="710000" />
+      <workItem from="1602339454998" duration="1765000" />
+      <workItem from="1602350996739" duration="376000" />
+      <workItem from="1602351475223" duration="1309000" />
+      <workItem from="1602445686891" duration="135000" />
     </task>
+    <task id="LOCAL-00001" summary="Small change">
+      <created>1602340521853</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602340521854</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Small change" />
+    <option name="LAST_COMMIT_MESSAGE" value="Small change" />
   </component>
 </project>

@@ -1,5 +1,7 @@
 package com.company.liner;
 
+import java.util.Scanner;
+
 public class Task_3 {
 
     /**
@@ -8,11 +10,14 @@ public class Task_3 {
      */
 
     public static void main(String[] args) {
-        double z, x = 6, y = 6, t = 6, g = 6;
-
-        z = (Math.sin(x) + Math.cos(y)) / (Math.cos(x) - Math.sin(y)) * t * g * x * y;
+        double z;
+        z = valueZ(new Scanner(System.in).nextDouble(), new Scanner(System.in).nextDouble());
 
         System.out.printf("%.2f", z);
 
+    }
+
+    private static double valueZ(double x, double y) {
+        return (Math.sin(x) + Math.cos(y)) / (Math.cos(x) - Math.sin(y)) * Math.tan(x * y);
     }
 }
