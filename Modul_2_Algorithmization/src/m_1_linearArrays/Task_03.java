@@ -8,12 +8,12 @@ package m_1_linearArrays;
 public class Task_03 {
 
     public static void main(String[] args) {
-        double[] list = {9, 15, -25, 11, -5, 1, 63, 7, 18, -1, -767, 0};
-        count(list);
 
+        double[] list = {9, 15, -25, 11, -5, 1, 63, 7, 18, -1, -767, 0};
+        System.out.print(count(list));
     }
 
-    private static void count(double[] list) {
+    private static String count(double[] list) {
         int zero = 0;
         int positive = 0;
         int negative = 0;
@@ -27,7 +27,6 @@ public class Task_03 {
                 negative++;
         }
 
-        System.out.print("Нули " + zero + "\n" + "Положительные " + positive + "\n" + "Отрицательные " + negative);
+       return "Нули " + zero + "\n" + "Положительные " + positive + "\n" + "Отрицательные " + negative;
     }
-
 }

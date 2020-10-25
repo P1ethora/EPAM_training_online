@@ -10,29 +10,30 @@ import java.util.Arrays;
 public class Task_12 {
 
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(result(10, 100)));
+
+        System.out.println(Arrays.toString(result(15, 125)));
     }
 
     private static int[] result(int k, int n) {
-        if (k == 0) {
-            return new int[]{0};
-        }
+//        if (k == 0) {
+//            return new int[]{0};
+//        }
 
         int[] list = new int[10];
         int j = 0;
         for (int i = 0; i < n; i++) {
-            if (sumNumb(i) == k) {
+            if (sumNumber(i) == k) {
                 if (j == list.length - 1) {
-                    list = growArr(list);
+                    list = increaseArr(list);
                 }
                 list[j] = i;
                 j++;
             }
         }
-        return reduceArr(list);
+        return reductionArr(list);
     }
 
-    private static int sumNumb(int i) {
+    private static int sumNumber(int i) {     //сумма чисел 123 (1+2+3 и тд)
         int sum = 0;
         while (i > 0) {
             sum += i % 10;
@@ -41,26 +42,20 @@ public class Task_12 {
         return sum;
     }
 
-    private static int[] growArr(int[] arr) {
-        int length = arr.length * 2 + 1;
-        return (copy(arr, length));
+    private static int[] increaseArr(int[] arr) {     //увеличение массива
+        return (copy(arr, arr.length * 2 + 1));
     }
 
-    private static int[] reduceArr(int[] arr) {
-        int length = arr.length - 1;
-        while (arr[length] == 0)
+    private static int[] reductionArr(int[] arr) {   //Уменьшение массива
+        int length = arr.length;
+        while (arr[length - 1] == 0)
             length--;
         return (copy(arr, length));
     }
 
-    private static int[] copy(int[] arr, int newL) {
+    private static int[] copy(int[] arr, int newL) {         //создание нового массива
         int[] newArr = new int[newL];
-
-        if (arr.length < newL) {
-            System.arraycopy(arr, 0, newArr, 0, arr.length);
-        } else {
-            System.arraycopy(arr, 0, newArr, 0, newL);
-        }
+        System.arraycopy(arr, 0, newArr, 0, Math.min(arr.length, newL));
         return newArr;
     }
 }

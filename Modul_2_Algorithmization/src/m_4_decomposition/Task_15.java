@@ -8,7 +8,7 @@ package m_4_decomposition;
 public class Task_15 {
 
     public static void main(String[] args) {
-        detect(2);
+        detect(3);
 
     }
 

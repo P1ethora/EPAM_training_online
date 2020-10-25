@@ -7,7 +7,6 @@ import pl.logic.Cost;
 import java.util.ArrayList;
 
 public class Gift extends Cost implements FinishedProduct {
-    //TODO доделать!!!!
     private ArrayList<Product> sweetness;
     private GiftPackaging giftPackaging;
 

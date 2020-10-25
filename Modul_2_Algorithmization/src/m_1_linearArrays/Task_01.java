@@ -1,5 +1,7 @@
 package m_1_linearArrays;
 
+import java.util.Scanner;
+
 /**
  * В массив А[N] занесены натуральные числа. Найти сумму тех элементов, которые кратны данному К.
  */
@@ -7,20 +9,18 @@ package m_1_linearArrays;
 public class Task_01 {
 
     public static void main(String[] args) {
-        int[] array = {10, 25, 38, 21, 6};
-        int k = 2;
-        sum(array, k);
+
+        System.out.print(sum(new int[] {10, 25, 38, 21, 6},
+                         new Scanner(System.in).nextInt()));
     }
 
-    private static void sum(int[] array, int k) {
+    private static int sum(int[] array, int number) {
         int sum = 0;
-
-        for (int i1 : array) {
-            if (i1 % k == 0) {
-                sum += i1;
+        for (int i : array) {
+            if (i % number == 0) {
+                sum += i;
             }
         }
-
-        System.out.print("Сумма = " + sum);
+        return sum;
     }
 }
