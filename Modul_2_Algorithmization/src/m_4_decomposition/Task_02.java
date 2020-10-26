@@ -13,7 +13,10 @@ public class Task_02 {
     private static int divisor(int a, int b, int c, int d) {
         int min = min(min(a, b), min(c, d));
         for (int i = min; i > 1; i--) {
-            if (a % i == 0 && b % i == 0 && c % i == 0 && d % i == 0) {
+            if (a % i == 0 &&
+                b % i == 0 &&
+                c % i == 0 &&
+                d % i == 0) {
                 return i;
             }
         }
@@ -22,7 +25,7 @@ public class Task_02 {
     }
 
     private static int min(int a, int b) {
-        return a < b ? a : b;
+        return Math.min(a, b);
     }
 
 }

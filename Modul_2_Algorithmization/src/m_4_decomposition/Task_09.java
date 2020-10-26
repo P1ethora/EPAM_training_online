@@ -9,25 +9,20 @@ public class Task_09 {
 
     public static void main(String[] args) {
 
-        surface(5, 8, 7, 10, 90);
+        surface(5, 8, 7, 10);   //Зачем угол если даны все стороны
 
     }
 
-    private static void surface(double x, double y, double z, double t, double degree) {
+    private static void surface(double x, double y, double z, double t) {
 
-        if (degree == 90) {
-            double diagonal = Math.sqrt(Math.pow(x, 2) + Math.pow(t, 2));
-
-            double s1 = pAndS(x, t, diagonal);
-            double s2 = pAndS(y, z, diagonal);
-            double sum = s1 + s2;
-            System.out.println(sum);
-        } else {
-            System.out.println("Угол не равен 90°");
-        }
+        double diagonal = Math.sqrt(Math.pow(x, 2) + Math.pow(t, 2));
+        double s1 = square(x, t, diagonal);
+        double s2 = square(y, z, diagonal);
+        double sum = s1 + s2;
+        System.out.println(sum);
     }
 
-    private static double pAndS(double one, double two, double diagonal) {
+    private static double square(double one, double two, double diagonal) {
 
         double p = (one + two + diagonal) / 2;
         double s = Math.sqrt(p * (p - one) * (p - diagonal) * (p - two));

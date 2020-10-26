@@ -8,23 +8,22 @@ package m_4_decomposition;
 public class Task_15 {
 
     public static void main(String[] args) {
-        detect(3);
+        detect(2);
 
     }
 
     private static void detect(int n) {
-        int[] numb = new int[n];
-        numb[0] = 1;
-        while (numb[n - 1] < 9) {
-            for (int i = 1; i < numb.length; i++) {
-                numb[i] = numb[0] + i;
+        int[] number = new int[n];   //представление n-значного числа
+        number[0] = 1;               //с начальной цифрой 1
+        while (number[n - 1] < 9) {
+            for (int i = 1; i < number.length; i++) {
+                number[i] = number[0] + i;
             }
-            for (int a : numb) {
+            for (int a : number) {
                 System.out.print(a);
             }
             System.out.print(" ");
-            numb[0]++;
+            number[0]++;
         }
-        System.out.println();
     }
 }

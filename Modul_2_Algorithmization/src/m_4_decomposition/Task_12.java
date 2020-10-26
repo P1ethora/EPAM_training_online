@@ -16,7 +16,7 @@ public class Task_12 {
 
     private static int[] result(int k, int n) {
 //        if (k == 0) {
-//            return new int[]{0};
+//            return new int[]{0};     //небольшая проверока на ввод
 //        }
 
         int[] list = new int[10];
@@ -43,17 +43,17 @@ public class Task_12 {
     }
 
     private static int[] increaseArr(int[] arr) {     //увеличение массива
-        return (copy(arr, arr.length * 2 + 1));
+        return (createNewArray(arr, arr.length * 2 + 1));
     }
 
     private static int[] reductionArr(int[] arr) {   //Уменьшение массива
         int length = arr.length;
         while (arr[length - 1] == 0)
             length--;
-        return (copy(arr, length));
+        return (createNewArray(arr, length));
     }
 
-    private static int[] copy(int[] arr, int newL) {         //создание нового массива
+    private static int[] createNewArray(int[] arr, int newL) {         //создание нового массива
         int[] newArr = new int[newL];
         System.arraycopy(arr, 0, newArr, 0, Math.min(arr.length, newL));
         return newArr;

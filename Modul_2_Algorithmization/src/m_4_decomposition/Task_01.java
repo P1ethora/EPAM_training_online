@@ -23,7 +23,7 @@ public class Task_01 {
 
     private static int maxDivider(int a, int b) {
 
-        for (int i = (a > b ? b : a); i > 1; i--) {
+        for (int i = (Math.min(a, b)); i > 1; i--) {
             if (a % i == 0 && b % i == 0) {
                 return i;
             }

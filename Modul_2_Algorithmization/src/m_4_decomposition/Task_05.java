@@ -13,18 +13,19 @@ public class Task_05 {
     }
 
     private static int max(int[] mass) {
-        int max = mass[0];
+        int max = 0;
         for (int i : mass) {
-            max = max < i ? i : max;
+            max = Math.max(max, i);
         }
         return max;
     }
 
     private static void beforeMax(int[] mass) {
         int max = max(mass);
-        int beforeMax = mass[0];
+        int beforeMax = 0;
 
         for (int i : mass) {
+            // beforeMax = i>beforeMax && i<max? i : beforeMax;
             if (i > beforeMax && i < max) {
                 beforeMax = i;
             }

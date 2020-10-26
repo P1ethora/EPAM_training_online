@@ -16,7 +16,9 @@ public class Task_08 {
 
     private static void sum(int[] d, int k, int m) {
         int a = k - 1, b = m - 1;
-        if (a == 0 && b == 2 || a == 2 && b == 4 || a == 4 && b == 6) {
+        if (a == 0 && b == 2 ||
+            a == 2 && b == 4 ||
+            a == 4 && b == 6) {
             int sum = b - a - 1;
             for (int i = a; i <= b - 2; i++) {
                 sum = d[i] + d[i + 1] + d[i + 2];
