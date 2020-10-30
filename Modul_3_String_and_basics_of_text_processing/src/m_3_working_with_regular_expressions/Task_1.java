@@ -1,7 +1,6 @@
 package m_3_working_with_regular_expressions;
 
 import java.util.*;
-
 import static java.util.Comparator.comparingInt;
 
 /**
@@ -25,100 +24,115 @@ public class Task_1 {
                 "\n" +
                 "In winter there are a few sunny days. In the south of England you can see blue sky sometimes. But as a rule it is very cold, and the sky is often cloudy. Especially it can be noticed in the north and east. Winter is not very pleasant in these regions.";
 
-        System.out.println("Абзацы по количеству предложений: \n");
-        sortParagraph(text);
-        System.out.println("\nОтсортированые слова в каждом предложении по длине: \n");
-        sortWord(text);
-        System.out.println("");
-        SortLiteral(text, 'a');
+       System.out.println("Абзацы по количеству предложений: \n");
+       sortParagraph(text);
+       System.out.println("\nОтсортированые слова в каждом предложении по длине: \n");
+       sortWord(text);
+       System.out.println();
+       System.out.println("Введите символ:");
+       SortLiteral(text, new Scanner(System.in).next().charAt(0));  //берем первую букву
     }
 
     private static void sortParagraph(String text) {
-        String[] paragraphs = text.split("\\n");
-        int count = 0;
-
-        TreeMap<String, Integer> map = new TreeMap<>();
-        for (String paragr : paragraphs) {
-            for (String s1 : paragr.split("[.!?]")) {
-                count++;
-            }
-            map.put(paragr, count);
-            count = 0;
-        }
-        map.entrySet()
-                .stream()
-                .sorted(Map.Entry.comparingByValue())
+        Arrays.stream(text.split("\\n"))
+                .sorted(comparingInt(o -> (o.split("[.!?]").length)))
                 .forEach(System.out::println);
     }
 
     private static void sortWord(String text) {
-        String[] sentences = text.split("[.!?]");
-        ArrayList<String> words = new ArrayList<>();
-
-        Comparator<String> comparator = comparingInt(String::length);
-        for (String sent : sentences) {
-            sent = sent.trim();
-
-            Collections.addAll(words, sent.split("\\s*([ ,;:.«»\\-—])\\s*"));
-            words.sort(comparator);
-            System.out.println(words);
-            words.clear();
+        for (String sentence : text.split("[.!?]")) {
+            Arrays.stream(sentence.split("\\p{P}?[ \\t\\n\\r]+"))
+                    .sorted(comparingInt(String::length))
+                    .map(i -> i + " ")
+                    .forEach(System.out::print);
+            System.out.println();
         }
     }
 
     private static void SortLiteral(String text, char letter) {
-        if (text.indexOf(letter) != -1) {
-            String[] sentences = text.split("([.!?]+)");
-            for (String s : sentences) {
-                String[] mass = s.split("\\W");
-                for (int k = 0; k < mass.length; k++) {
-                    if (mass[k].indexOf(letter) == -1) {
-                        mass[k] = mass[k].replaceAll(".", "");
-                    }
-                }
-                for (int k = 0; k < mass.length; k++) {
-                    for (int j = 0; j < mass.length - 1; j++) {
-                        if (CountLiteral(mass[j], letter) > CountLiteral(mass[j + 1], letter)) {
-                            String temp = mass[j];
-                            mass[j] = mass[j + 1];
-                            mass[j + 1] = temp;
-                        }
-                    }
-                }
-                for (int k = 0; k < mass.length; k++) {
-                    for (int j = 0; j < mass.length - 1; j++) {
-                        if (CountLiteral(mass[j], letter) == CountLiteral(mass[j + 1], letter) && mass[j].compareTo(mass[j + 1]) > 0) {
-                            String temp = mass[j];
-                            mass[j] = mass[j + 1];
-                            mass[j + 1] = temp;
-                        }
-                    }
-                }
-                int count = 1;
-                for (String a : mass) {
-                    if (!a.equals("")) {
-                        if (count == mass.length) {
-                            System.out.print(a);
-                            System.out.println();
-                        } else {
-                            System.out.print(a + " ");
-                        }
-                    }
-                    count++;
-                }
-            }
-        } else {
-            System.out.println("Отсутствует");
-        }
-    }
 
-    private static int CountLiteral(String str, char letter) {
-        int count = 0;
-        for (int i = 0; i < str.length(); i++) {
-            if (str.charAt(i) == letter) {
-                count++;
+        for (String sentence : text.split("[.!?]")) {  //Текст на Предложения
+            HashMap<String, Integer> map = new HashMap<>(); //хранилище нужных слов
+            for (String word : sentence.split("\\p{P}?[ \\t\\n\\r]+")) {  //Предложения на слова
+                boolean check = false;     //Указатель наличия символа
+                int count = 0;            //счетчик символа в слове
+                for (char ch : word.toCharArray()) {                   //слова на символы
+                    if (ch == letter || String.valueOf(ch).toUpperCase().equals(String.valueOf(letter))
+                            || String.valueOf(ch).toLowerCase().equals(String.valueOf(letter))) {    //если есть символ с учетом реестра
+                        check = true;              //Подтверждаем наличие
+                        count++;                   //Счетчик +1
+                    }
+                }
+                if (check) {
+                    map.put(word.toLowerCase(), count);//если указатель показал наличие символа отправляем слово и счетчик в карту
+                    check = false;   //сбросить указатель
+                }
+            }
+
+            map.entrySet().stream()                       //Сортируем коллекцию по ключу и знчению
+                    .sorted(Map.Entry.<String, Integer>comparingByValue()
+                            .thenComparing(Map.Entry.comparingByKey()))
+                    .map(i -> i.getKey() + " ")            //объект вывода
+                    .forEach(System.out::print);            //вывод каждого слова в строку
+
+            if (map.size() != 0) {   //каждое предложение с новой строки
+                System.out.println();
             }
         }
-        return count;
     }
+//
+//            if (text.indexOf(letter) != -1) {
+//            String[] sentences = text.split("([.!?]+)");
+//            for (String s : sentences) {
+//                String[] mass = s.split("\\W");
+//                for (int k = 0; k < mass.length; k++) {
+//                    if (mass[k].indexOf(letter) == -1) {
+//                        mass[k] = mass[k].replaceAll(".", "");
+//                    }
+//                }
+//                for (int k = 0; k < mass.length; k++) {
+//                    for (int j = 0; j < mass.length - 1; j++) {
+//                        if (CountLiteral(mass[j], letter) > CountLiteral(mass[j + 1], letter)) {
+//                            String temp = mass[j];
+//                            mass[j] = mass[j + 1];
+//                            mass[j + 1] = temp;
+//                        }
+//                    }
+//                }
+//                for (int k = 0; k < mass.length; k++) {
+//                    for (int j = 0; j < mass.length - 1; j++) {
+//                        if (CountLiteral(mass[j], letter) == CountLiteral(mass[j + 1], letter) && mass[j].compareTo(mass[j + 1]) > 0) {
+//                            String temp = mass[j];
+//                            mass[j] = mass[j + 1];
+//                            mass[j + 1] = temp;
+//                        }
+//                    }
+//                }
+//                int count = 1;
+//                for (String a : mass) {
+//                    if (!a.equals("")) {
+//                        if (count == mass.length) {
+//                            System.out.print(a);
+//                            System.out.println();
+//                        } else {
+//                            System.out.print(a + " ");
+//                        }
+//                    }
+//                    count++;
+//                }
+//            }
+//        } else {
+//            System.out.println("Отсутствует");
+//        }
+//    }
+
+//    private static int CountLiteral(String str, char letter) {
+//        int count = 0;
+//        for (int i = 0; i < str.length(); i++) {
+//            if (str.charAt(i) == letter) {
+//                count++;
+//            }
+//        }
+//        return count;
+//    }
 }

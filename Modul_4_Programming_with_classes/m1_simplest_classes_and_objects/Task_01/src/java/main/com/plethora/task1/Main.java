@@ -1,3 +1,5 @@
+package main.com.plethora.task1;
+
 /**
  * Создайте класс Test1 двумя переменными. Добавьте метод вывода на экран и
  * методы изменения этих переменных. Добавьте метод, который находит сумму
@@ -7,12 +9,9 @@
 
 public class Main {
 
-    public static void main(String[] args) {
-        Test1 test1 = new Test1();
-        test1.setA(10);
-        test1.setB(9);
-        System.out.println(test1);
-        test1.sum();
-        test1.max();
+public static void main(String[] args) {
+
+        Test1 test1 = new Test1(10,9);
+        test1.printAll();
     }
 }

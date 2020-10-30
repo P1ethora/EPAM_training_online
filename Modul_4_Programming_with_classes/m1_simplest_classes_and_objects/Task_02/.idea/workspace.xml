@@ -1,18 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b928d247-381d-4895-8a3a-60ab48cf8f88" name="Default Changelist" comment="" />
+    <list default="true" id="b928d247-381d-4895-8a3a-60ab48cf8f88" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Task_01/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task_01/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Task_01/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task_01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Task_01/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task_01/Task_01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Task_01/Task_01.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task_01/out/production/Task_01/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task_01/out/production/Task_01/Test1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task_01/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task_01/src/Test1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_02.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Task_02.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Task_02/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Task_02/Test2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test2.java" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
       </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -22,11 +62,13 @@
     <option name="height" value="487" />
   </component>
   <component name="ProjectId" id="1Zzq8SPA7bXDP0JsdrCsqPvGUp1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580656108145" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Task_03" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -75,10 +117,22 @@
       <workItem from="1580149160897" duration="1935000" />
       <workItem from="1580218471897" duration="5384000" />
       <workItem from="1585852112666" duration="720000" />
+      <workItem from="1603838878057" duration="1012000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
