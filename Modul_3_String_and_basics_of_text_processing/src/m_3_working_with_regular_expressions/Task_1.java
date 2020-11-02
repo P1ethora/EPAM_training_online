@@ -30,7 +30,7 @@ public class Task_1 {
        sortWord(text);
        System.out.println();
        System.out.println("Введите символ:");
-       SortLiteral(text, new Scanner(System.in).next().charAt(0));  //берем первую букву
+       sortLiteral(text, new Scanner(System.in).next().charAt(0));  //берем первую букву
     }
 
     private static void sortParagraph(String text) {
@@ -49,7 +49,7 @@ public class Task_1 {
         }
     }
 
-    private static void SortLiteral(String text, char letter) {
+    private static void sortLiteral(String text, char letter) {
 
         for (String sentence : text.split("[.!?]")) {  //Текст на Предложения
             HashMap<String, Integer> map = new HashMap<>(); //хранилище нужных слов
