@@ -57,8 +57,7 @@ public class Task_1 {
                 boolean check = false;     //Указатель наличия символа
                 int count = 0;            //счетчик символа в слове
                 for (char ch : word.toCharArray()) {                   //слова на символы
-                    if (ch == letter || String.valueOf(ch).toUpperCase().equals(String.valueOf(letter))
-                            || String.valueOf(ch).toLowerCase().equals(String.valueOf(letter))) {    //если есть символ с учетом реестра
+                    if (ch == letter || String.valueOf(ch).equalsIgnoreCase(String.valueOf(letter))) {    //если есть символ с учетом реестра
                         check = true;              //Подтверждаем наличие
                         count++;                   //Счетчик +1
                     }
@@ -75,8 +74,8 @@ public class Task_1 {
                     .map(i -> i.getKey() + " ")            //объект вывода
                     .forEach(System.out::print);            //вывод каждого слова в строку
 
-            if (map.size() != 0) {   //каждое предложение с новой строки
-                System.out.println();
+            if (map.size() != 0) {   //если пусто значит в предложении нет таких слов
+                System.out.println();//каждое предложение с новой строки
             }
         }
     }
